@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: 500px;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      display: flex;
+      width: 100%;
+    }
+
+    .column {
+      flex-basis: 33.3333%;
+      padding: 0 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <div>
+    <h1>Great Science Fiction Movies</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/Pandorum-poster.jpg" alt="Poster for the movie Pandorum">
+        <h3>Pandorum</h3>
+        <p>Pandorum is a futuristic mystery/horror/sci-fi movie about two crew members of a spaceship that accidentlly wake up from suspended animation in deep space with no memory of who they are or what their mission is.  It is an extremely underrated movie with great acting, cinematography, and set design.  If you have not seen or heard of this hidden gem, I would highly recommend it if you are into this genre.</p>
+      </div>
+      <div class="column">
+        <img src="images/district9-poster.jpg" alt="Poster for the movie District 9">
+        <h3>District 9</h3>
+        <p>District 9 is a Sci-fi movie directed by Neil Blomkamp.  It is set in South Africa, where 30 years ago, aliens landed to find refuge from their dying planet.  A refugee camp area is set up for the aliens which separates them from humans, and is called District 9.  While being a sci-fi movie, it also explores commentary on social classes, xenophobia, and human/alien rights.  For anyone looking for a different take on the old 'aliens coming to earth' genre, I would recommend viewing District 9. </p>
+      </div>
+      <div class="column">
+        <img src="images/ex-machina-poster.jpg" alt="Poster for Ex-Machina">
+        <h3>Ex-Machina</h3>
+        <p>Ex-Machina is a sci-fi movie about artificial intellegence.  A programmer, named Caleb, working for a 'Google like' company wins a company lottery to visit the CEO at his isolated estate in Alaska.  He is then asked to perform a 'turing test' with an articial intellegence named Ava, to see wether or not Ava is truly an A.I.  This movie explores the ideas of 'what is conciousness' as well as the ramifications of artifical intelligence. I would also highly recommend this movie, and rank it as my number one sci-fi movie.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
